@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fast food Restaurent</title>
+  <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Exo+2:ital,wght@0,100..900;1,100..900&family=Fjalla+One&family=Fredoka:wght@300..700&family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&family=PT+Sans+Narrow:wght@400;700&display=swap"
+    rel="stylesheet">
+</head>
+
+<body>
+
+  <!-- Header & Navigation -->
+  <header class="nav_bar">
+  <!-- Brand/logo -->
+  <div class="nav_child1">
+    <nav><a href="#" target="_self">Feane</a></nav>
+  </div>
+
+  <!-- Desktop Navigation -->
+  <div class="nav_child2 desktop_only">
+    <nav><a href="#" target="_self">HOME</a></nav>
+    <nav><a href="./Menu.html">MENU</a></nav>
+    <nav><a href="./About.html">ABOUT</a></nav>
+    <nav><a href="./book.html">BOOK TABLE</a></nav>
+  </div>
+  <div class="nav_child3 desktop_only">
+    <div class="profile_icon"><i class="fa fa-user"></i></div>
+    <div class="cart"><i class="fa fa-shopping-cart"></i></div>
+    <div class="search"><i class="fa fa-search"></i></div>
+    <button class="order_online">Order Online</button>
+  </div>
+
+  <!-- Mobile Hamburger & Menu -->
+  <input type="checkbox" id="menu-toggle" class="menu-toggle">
+  <label for="menu-toggle" class="hamburger">&#9776;</label>
+ <div class="nav_menu mobile_only">
+    <div class="nav_child2">
+      <nav><a href="#" target="_self">HOME</a></nav>
+      <nav><a href="./Menu.html">MENU</a></nav>
+      <nav><a href="./About.html">ABOUT</a></nav>
+      <nav><a href="./book.html">BOOK TABLE</a></nav>
+    </div>
+    <div class="nav_child3">
+      <div class="profile_icon"><i class="fa fa-user"></i></div>
+      <div class="cart"><i class="fa fa-shopping-cart"></i></div>
+      <div class="search"><i class="fa fa-search"></i></div>
+      <button class="order_online">Order Online</button>
+    </div>
+  </div>
+</header>
+
+
+  <!-- Hero Section -->
+  <div class="slider" id="home">
+    <div class="slider_txt">
+      <div class="slider_name">
+        <h1>Fast Food Restaurant</h1>
+      </div>
+      <div class="slider_para">
+        <p><i>Doloremque, itaque aperiam facilis rerum, commodi, temporibus sapiente ad mollitia laborum quam quisquam
+            esse error unde. Tempora ex doloremque, labore, sunt repellat dolore, iste magni quos nihil ducimus libero
+            ipsam.</i>
+        </p>
+      </div>
+      <div class="slider_button">
+        <button class="order_online">Order Now</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Offers Section -->
+  <section class="offer-section">
+    <div class="offer-card">
+      <div class="offer-image">
+        <img src="./Tasty_thursdays.jpg" alt="Tasty Thursdays" width="180" height="180">
+      </div>
+      <div class="offer-content">
+        <p class="offer-title">Tasty Thursdays</p>
+        <div class="offer-discount"><span>20%</span><small>Off</small></div>
+        <button class="offer-button">Order Now
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cart-fill" viewBox="0 0 16 16">
+            <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5M5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4m7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4m-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2m7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2"/>
+          </svg>
+        </button>
+      </div>
+    </div>
+
+    <div class="offer-card">
+      <div class="offer-image">
+        <img src="./pizza_Days.jpg" alt="Pizza Days" width="180" height="180">
+      </div>
+      <div class="offer-content">
+        <p class="offer-title">Pizza Days</p>
+        <div class="offer-discount"><span>15%</span><small>Off</small></div>
+        <button class="offer-button">Order Now
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cart-fill" viewBox="0 0 16 16">
+            <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5M5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4m7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4m-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2m7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2"/>
+          </svg>
+        </button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Menu Section -->
+  <div class="our-menu">
+    <span>Our Menu</span>
+  </div>
+
+  <div class="menu">
+    <div class="All">
+      <a href="#All-Items" class="active">All</a>
+    </div>
+    <div class="Burger">
+      <a href="#">Burger</a>
+    </div>
+    <div class="Pizza">
+      <a href="#">Pizza</a>
+    </div>
+    <div class="Pasta">
+      <a href="#">Pasta</a>
+    </div>
+    <div class="fries">
+      <a href="#">Fries</a>
+    </div>
+  </div>
+
+  <main>
+    <div class="All-items" id="All-Items">
+      <div class="All-item-1 Allitems">
+        <div class="All-img1 Allimg">
+          <img src="./pizza-1.png" alt="Delicious Pizza" width="190" height="150">
+        </div>
+        <div class="both-des-icon">
+          <div class="All-description1 Alldes">
+            <h2>Delicious Pizza</h2>
+            <p>Veniam debitis quaerat officiis quasi cupiditate quo, quisquam velit, magnam voluptatem
+              repellendus sed eaque</p>
+          </div>
+          <div class="All-icon1 Allicon">
+            <p>$20</p>
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cart-fill" viewBox="0 0 16 16">
+              <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5M5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4m7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4m-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2m7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2"/>
+            </svg>
+          </div>
+        </div>
+      </div>
+
+      <div class="All-item-2 Allitems">
+        <div class="All-img2 Allimg">
+          <img src="./burger-1.png" alt="Delicious Burger" width="190" height="150">
+        </div>
+        <div class="both-des-icon">
+          <div class="All-description2 Alldes">
+            <h2>Delicious Burger</h2>
+            <p>Veniam debitis quaerat officiis quasi cupiditate quo, quisquam velit, magnam voluptatem
+              repellendus sed eaque</p>
+          </div>
+          <div class="All-icon2 Allicon">
+            <p>$15</p>
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cart-fill" viewBox="0 0 16 16">
+              <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5M5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4m7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4m-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2m7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2"/>
+            </svg>
+          </div>
+        </div>
+      </div>
+
+      <div class="All-item-3 Allitems">
+        <div class="All-img3 Allimg">
+          <img src="./pizza-2.png" alt="Delicious Pizza" width="190" height="150">
+        </div>
+        <div class="both-des-icon">
+          <div class="All-description3 Alldes">
+            <h2>Delicious Pizza</h2>
+            <p>Veniam debitis quaerat officiis quasi cupiditate quo, quisquam velit, magnam voluptatem
+              repellendus sed eaque</p>
+          </div>
+          <div class="All-icon3 Allicon">
+            <p>$17</p>
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cart-fill" viewBox="0 0 16 16">
+              <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5M5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4m7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4m-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2m7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2"/>
+            </svg>
+          </div>
+        </div>
+      </div>
+
+      <div class="All-item-4 Allitems">
+        <div class="All-img4 Allimg">
+          <img src="./pastha-1.png" alt="Delicious Pasta" width="190" height="150">
+        </div>
+        <div class="both-des-icon">
+          <div class="All-description4 Alldes">
+            <h2>Delicious Pasta</h2>
+            <p>Veniam debitis quaerat officiis quasi cupiditate quo, quisquam velit, magnam voluptatem
+              repellendus sed eaque</p>
+          </div>
+          <div class="All-icon4 Allicon">
+            <p>$18</p>
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cart-fill" viewBox="0 0 16 16">
+              <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5M5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4m7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4m-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2m7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2"/>
+            </svg>
+          </div>
+        </div>
+      </div>
+
+      <div class="All-item-5 Allitems">
+        <div class="All-img5 Allimg">
+          <img src="./fries-1.png" alt="French Fries" width="190" height="150">
+        </div>
+        <div class="both-des-icon">
+          <div class="All-description5 Alldes">
+            <h2>French Fries</h2>
+            <p>Veniam debitis quaerat officiis quasi cupiditate quo, quisquam velit, magnam voluptatem
+              repellendus sed eaque</p>
+          </div>
+          <div class="All-icon5 Allicon">
+            <p>$10</p>
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cart-fill" viewBox="0 0 16 16">
+              <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5M5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4m7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4m-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2m7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2"/>
+            </svg>
+          </div>
+        </div>
+      </div>
+
+      <div class="All-item-6 Allitems">
+        <div class="All-img6 Allimg">
+          <img src="./pizza-3.png" alt="Delicious Pizza" width="190" height="150">
+        </div>
+        <div class="both-des-icon">
+          <div class="All-description6 Alldes">
+            <h2>Delicious Pizza</h2>
+            <p>Veniam debitis quaerat officiis quasi cupiditate quo, quisquam velit, magnam voluptatem
+              repellendus sed eaque</p>
+          </div>
+          <div class="All-icon6 Allicon">
+            <p>$15</p>
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cart-fill" viewBox="0 0 16 16">
+              <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5M5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4m7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4m-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2m7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2"/>
+            </svg>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <div class="view-more">
+    <button>View More</button>
+  </div>
+
+  <!-- About Section -->
+  <div class="About-des-img">
+    <div class="about-img">
+      <img src="./about-img.png" alt="Restaurant Interior" width="600" height="400">
+    </div>
+    <div class="About-des">
+      <div class="about-name">
+        <h2>We Are Feane</h2>
+      </div>
+      <div class="About-para">
+        <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration
+          in some form, by injected humour, or randomised words which don't look even slightly believable. If
+          you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing
+          hidden in the middle of text. All</p>
+      </div>
+      <div class="About-button">
+        <button>Read More</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Booking Section -->
+  <div class="contact">
+    <div class="table-name">
+      <div class="contact-name">
+        <h2>Book A Table</h2>
+      </div>
+      <div class="contact-form">
+        <input type="text" placeholder="Your Name">
+        <select>
+          <optgroup label="How Many Persons?">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+          </optgroup>
+        </select>
+        <input type="email" placeholder="Your Email">
+        <input type="number" placeholder="How Many Persons?">
+        <input type="datetime-local">
+      </div>
+    </div>
+    <div class="map">
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7610.694963685409!2d78.39286413741766!3d17.490918383655753!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb9192e6a09503%3A0xcf4efd459ca58106!2sK%20P%20H%20B%20Phase%201%2C%20Kukatpally%2C%20Hyderabad%2C%20Telangana!5e0!3m2!1sen!2sin!4v1754421706949!5m2!1sen!2sin"
+        allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+  </div>
+  <div class="book-now">
+    <button>Book Now</button>
+  </div>
+
+  <!-- Reviews Section -->
+  <div class="reviews-title">
+    <h2>What Says Our Customers</h2>
+  </div>
+  <div class="reviews">
+    <div class="review-1">
+      <div class="review-des1 review-des">
+        <div class="reviewer-para1 reviewer-para">
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam similique nam expedita saepe
+            facere aut eligendi iusto corrupti quas ad aliquid rem, laborum distinctio molestias!</p>
+        </div>
+        <div class="reviewer-name1 reviewer-name">
+          <h5>Moana Michel</h5>
+        </div>
+        <div class="reviewer-extra1 reviewer-extra">
+          <h6>magna aliqua</h6>
+        </div>
+      </div>
+    </div>
+    <div class="review-2">
+      <div class="review-des2 review des">
+        <div class="reviewer-para2 reviewer-para">
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam similique nam expedita saepe
+            facere aut eligendi iusto corrupti quas ad aliquid rem, laborum distinctio molestias!</p>
+        </div>
+        <div class="reviewer-name2 reviewer-name">
+          <h5>John Doe</h5>
+        </div>
+        <div class="reviewer-extra2 reviewer-extra">
+          <h6>magna aliqua</h6>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="review-images">
+    <div class="review-img1 review-img">
+      <img src="./client1.jpg" alt="Moana Michel" width="100" height="100">
+    </div>
+    <div class="review-img2 review-img">
+      <img src="./client2.jpg" alt="John Doe" width="100" height="100">
+    </div>
+  </div>
+  <div class="scrolling-symbols">
+    <div class="scroll-1 scrolls">
+      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-left-fill" viewBox="0 0 16 16">
+        <path d="m3.86 8.753 5.482 4.796c.646.566 1.658.106 1.658-.753V3.204a1 1 0 0 0-1.659-.753l-5.48 4.796a1 1 0 0 0 0 1.506z"/>
+      </svg>
+    </div>
+    <div class="scroll-2 scrolls">
+      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-right-fill" viewBox="0 0 16 16">
+        <path d="m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z"/>
+      </svg>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer-container">
+      <!-- Contact Us -->
+      <div class="footer-column">
+        <h3>Contact Us</h3>
+        <p><i class="fas fa-map-marker-alt"></i> Location</p>
+        <p><i class="fas fa-phone"></i> Call +01 1234567890</p>
+        <p><i class="fas fa-envelope"></i> demo@gmail.com</p>
+      </div>
+
+      <!-- Feane -->
+      <div class="footer-column center">
+        <h3>Feane</h3>
+        <p>
+          Necessary, making this the first true generator on the Internet.
+          It uses a dictionary of over 200 Latin words, combined with
+        </p>
+        <div class="social-icons">
+          <i class="fab fa-facebook-f"></i>
+          <i class="fab fa-twitter"></i>
+          <i class="fab fa-linkedin-in"></i>
+          <i class="fab fa-instagram"></i>
+          <i class="fab fa-pinterest-p"></i>
+        </div>
+      </div>
+
+      <!-- Opening Hours -->
+      <div class="footer-column">
+        <h3>Opening Hours</h3>
+        <p>Everyday</p>
+        <p>10.00 Am -10.00 Pm</p>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <p>© 2025 All Rights Reserved By Free Html Templates</p>
+      <p>© Distributed By ThemeWagon</p>
+    </div>
+  </footer>
+</body>
+
+</html>
